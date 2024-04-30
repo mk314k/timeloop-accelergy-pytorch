@@ -30,7 +30,7 @@ version: '3'
 services:
   labs:
     hostname: labs
-    image: timeloopaccelergy/timeloop-accelergy-pytorch:latest-${DOCKER_ARCH}
+    image: kartikesh314/timeloop-accelergy-pytorch:latest-${DOCKER_ARCH}
     build: .
     ports:
       - "8888:8888"
